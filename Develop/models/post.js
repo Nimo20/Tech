@@ -41,18 +41,6 @@ Post.init(
     }
 );
 
-// // Alex's Post model
-// class Post extends Model {}
-// // create fields/columns for Post model
-// Post.init(
-//   {
-//       title: DataTypes.STRING,
-//       post_text: DataTypes.STRING
-//   },
-//   {
-//     sequelize
-//   }
-// );
 
 
 module.exports = Post;
