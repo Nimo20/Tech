@@ -1,3 +1,4 @@
+require('dotenv').config();
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -5,7 +6,7 @@ const exphbs = require('express-handlebars');
 const helpers = require('./Assets/utils/helpers');
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 
 const sequelize = require('./Assets/config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
